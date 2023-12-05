@@ -1,0 +1,183 @@
+{
+  "id": "16522e56-f938-4297-a953-9b02ecc9c12d",
+  "version": "2.0",
+  "name": "Lab1",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "2c5cc383-9bce-4966-9836-d87b1e0a4fd4",
+    "name": "tc1",
+    "commands": [{
+      "id": "740194e8-2c45-4de6-8a3e-08236679e6b4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1f61ef7-9e3b-42d2-b538-1d17e5f3e8d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "982x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61d7409a-5261-4c17-bfbc-82bc996af7d8",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.Pke_EE", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e50d287-7648-4668-b084-6144c5cbe15c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96d81156-0ebb-4ba1-b94e-8336f0ecb167",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d856e24e-80ec-4028-930e-663225d0a1b2",
+    "name": "tc2",
+    "commands": [{
+      "id": "bf51d702-b6cf-40bc-aa2b-99f04e3caae4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d43360e-71a9-4cac-beea-8ec37faee29f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "798x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bc7a4d0-5f70-489d-82d7-e87c29761c2f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "439b9968-bd4d-4496-a012-87c35ba4c819",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1ch8e_:nth-child(10) .\\_2puWtW",
+      "targets": [
+        ["css=.\\_1ch8e_:nth-child(10) .\\_2puWtW", "css:finder"],
+        ["xpath=//img[@alt='Grocery']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[10]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[10]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d06216-8d8b-4cab-ac3d-23469e1d0571",
+      "comment": "",
+      "command": "click",
+      "target": "name=pincode",
+      "targets": [
+        ["name=pincode", "name"],
+        ["css=.\\_166SQN", "css:finder"],
+        ["xpath=//input[@name='pincode']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ffcd21a-2caa-4763-96d1-9f812229d909",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=pincode",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d962404-a1b0-448e-9df0-a19884162015",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4532fd41-df40-40d8-b3b5-2c34322b9175",
+    "name": "tc3",
+    "commands": [{
+      "id": "9610df4d-80c9-47fa-8767-3c6487a35cb7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bd41e2b-0a86-4730-81e8-a44e2aa0026a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "700x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1a7ba72-ff50-44b4-90cc-db3ae3f71b98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1ch8e_:nth-child(9) .\\_2puWtW",
+      "targets": [
+        ["css=.\\_1ch8e_:nth-child(9) .\\_2puWtW", "css:finder"],
+        ["xpath=//img[@alt='Flights']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[9]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[9]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e59396f7-05b2-468c-831a-c462097f6990",
+      "comment": "",
+      "command": "click",
+      "target": "name=0-dateto",
+      "targets": [
+        ["name=0-dateto", "name"],
+        ["css=.\\_1WPSB8", "css:finder"],
+        ["xpath=//input[@name='0-dateto']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[2]/div/div[2]/form/div/div[3]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ddfd735-f759-4f75-9b7d-c07adffdfaf6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "de8bb338-bad1-4879-826e-762b6b425c8f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "cf18c782-d96c-4094-945d-972268238182",
+    "name": "flipkartts",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c5cc383-9bce-4966-9836-d87b1e0a4fd4", "d856e24e-80ec-4028-930e-663225d0a1b2", "4532fd41-df40-40d8-b3b5-2c34322b9175"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}

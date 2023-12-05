@@ -1,0 +1,165 @@
+{
+  "id": "b9473e87-4e5f-446e-8a8d-e7a44ba5ef08",
+  "version": "2.0",
+  "name": "Lab3",
+  "url": "https://www.snapdeal.com/",
+  "tests": [{
+    "id": "99c494b6-0c21-4675-9932-1f3a82d07cc4",
+    "name": "tc1",
+    "commands": [{
+      "id": "fa0ed0ea-0973-4c05-8b82-40f4fa372590",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9b1fbf0-ee8c-4bda-950c-55174a2d56e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9a3bb94-17f0-4004-9dba-d159a232734e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gift Cards",
+      "targets": [
+        ["linkText=Gift Cards", "linkText"],
+        ["css=.topHooks:nth-child(2) > .dp-widget-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Gift Cards')]", "xpath:link"],
+        ["xpath=//div[@id='sdHeader']/div[4]/section/div/span[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.snapdeal.com/products/digital-entertainment')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gift Cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ceddc1-6448-4a08-ab96-5dbd4a582c22",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Gift Cards",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff639a20-93f8-4168-a697-f5c6f385d23e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "34e378b2-398d-49c3-9890-f362ff88bd7d",
+    "name": "tc2",
+    "commands": [{
+      "id": "e909097d-00c1-41c9-943b-47c1dc49234b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "594bfbf5-40d3-4afd-8799-59b7533ffc9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f62889b6-a50d-4ec6-a6d2-f1042e4c06c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help Center",
+      "targets": [
+        ["linkText=Help Center", "linkText"],
+        ["css=.helpCentrDiv > .dp-widget-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Help Center')]", "xpath:link"],
+        ["xpath=//div[@id='sdHeader']/div[4]/section/div/span[2]/span[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/help')]", "xpath:href"],
+        ["xpath=//span[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help Center')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a05d457-4e6a-4737-b635-e860584f4699",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Help Center",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d333778-57c1-448a-af66-8a3dc44beca0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bbd4f415-b2a4-485c-aff3-18884623ea3b",
+    "name": "tc3",
+    "commands": [{
+      "id": "e5b86cb9-0445-495e-bc83-63634132d1bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09e6b54a-9501-48ee-b702-d529a505d93b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12cf8e57-c8ff-4c20-8b18-89eb44a9e759",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download App",
+      "targets": [
+        ["linkText=Download App", "linkText"],
+        ["css=.topHooks:nth-child(5) > .dp-widget-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Download App')]", "xpath:link"],
+        ["xpath=//div[@id='sdHeader']/div[4]/section/div/span[2]/span[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.snapdeal.com/offers/getsnapdealapp']", "xpath:href"],
+        ["xpath=//span[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be681ee9-d2df-4009-92ef-b181d0fa5aab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Download App",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30e3469d-5045-4393-8962-cde430c8ad36",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e1a5db8-77c9-48bd-91b8-27c8b12332eb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["99c494b6-0c21-4675-9932-1f3a82d07cc4"]
+  }, {
+    "id": "2ae9ca0c-df46-4341-bd89-615de9139842",
+    "name": "snapdealts",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["99c494b6-0c21-4675-9932-1f3a82d07cc4", "34e378b2-398d-49c3-9890-f362ff88bd7d", "bbd4f415-b2a4-485c-aff3-18884623ea3b"]
+  }],
+  "urls": ["https://www.snapdeal.com/"],
+  "plugins": []
+}
